@@ -293,26 +293,12 @@ main {
   gap: 10px;
 }
 
-.user {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.user h5 {
-  font-size: 14px;
-  font-weight: 600;
-  color: #333;
-}
-
-.userImgCircle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+.articleTitle {
+  width: 100%;
 }
 
 .articleTitle h3 {
-  font-size: 18px;
+  font-size: 1.2em;
   font-weight: 700;
   color: #000;
   cursor: pointer;
@@ -320,9 +306,10 @@ main {
 }
 
 .articleTitle p {
-  font-size: 14px;
+  font-size: 1em;
   color: #555;
   max-width: 90%;
+  margin-top: 5%;
 }
 
 .articleTitle h6 {
