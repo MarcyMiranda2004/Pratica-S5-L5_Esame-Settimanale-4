@@ -284,7 +284,6 @@ main {
   align-items: flex-start;
   gap: 20px;
   padding: 20px;
-  border-bottom: 1px solid #ddd;
 }
 
 .articleContent {
