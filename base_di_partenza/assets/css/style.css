@@ -1,0 +1,294 @@
+/* Generali */
+body {
+  padding-top: 6em;
+  background-color: #ffc017;
+}
+
+button {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.9);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Stile Header */
+header {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+/* Navigation Bar */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px black;
+  padding: 2em 10em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+header nav.scrolled {
+  background-color: white;
+  padding: 1em 10em;
+}
+
+header nav img {
+  width: 10%;
+  max-width: 10%;
+  cursor: pointer;
+}
+
+button.get-started {
+  background-color: #ffc017;
+  transition: background-color 0.3s ease;
+}
+
+header nav.scrolled button.get-started {
+  background-color: #1a8917;
+}
+
+#buttonContainer button {
+  border: none;
+  background-color: transparent;
+  border-radius: 2em;
+  padding: 0.8em;
+  margin-left: 0.3em;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#buttonContainer button.getStarted {
+  background-color: #191919;
+  color: white;
+  padding: 0.8em 1.5em;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+/* Banner */
+#banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannerWrite {
+  margin-left: 8%;
+  margin-top: 3%;
+  font-family: "Spectral", serif;
+}
+
+.bannerWrite h1 {
+  font-size: 800%;
+  font-weight: 400;
+  letter-spacing: -10px;
+  margin-bottom: 4%;
+}
+
+.bannerWrite h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 165%;
+  font-weight: 400;
+  width: 65%;
+  margin-bottom: 8%;
+}
+
+.bannerWrite button {
+  background-color: #191919;
+  color: white;
+  border: none;
+  border-radius: 2em;
+  padding: 0.5em 3em;
+  font-size: 130%;
+  margin-bottom: 10%;
+}
+
+/* dimensione Artwork Banner */
+#artwork {
+  width: 25%;
+}
+
+/* Main */
+main {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+/* Trending On Medium */
+#trendingOnMedium {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.577);
+  padding: 2% 8%;
+}
+
+/* Scritta Trending On Medium */
+.trending {
+  width: 12%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.trending img {
+  margin-right: 5%;
+  width: 2.5em;
+}
+
+.trendContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+/* Elementi in trend */
+.trendElement {
+  padding: 1.5em 4em;
+  position: relative;
+}
+
+.trendNumber {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  color: rgba(128, 128, 128, 0.22);
+  font-size: 250%;
+  font-weight: 1000;
+}
+
+.trendContent {
+  margin-left: 3.5%;
+  text-align: left;
+}
+
+/* Utente */
+.user {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.user img {
+  width: 5%;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.userImgCircle {
+  border-radius: 50%;
+}
+
+.userImgSquare {
+  border-radius: 0.5em;
+}
+
+/* Trend Content */
+.trendTitle {
+  line-height: 2em;
+}
+
+.trendTitle h3 {
+  font-weight: 800;
+  font-size: 1.2em;
+  line-height: 1em;
+  width: 75%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+.trendTitle p {
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.trendTitle p img {
+  width: 1.5em;
+  margin-left: 1%;
+}
+
+/* Middle Main */
+#middleMain {
+  width: 99%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+/* Aside */
+.discoveredMore1 {
+  border-bottom: 1px solid grey;
+  padding: 1em 1em 1em 0em;
+  width: 40%;
+}
+
+.discoveredMore1 h3 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.discoveriMore2 {
+  padding: 1em 1em 1em 0em;
+}
+
+.asideButtoncontainer1 {
+  text-align: left;
+  margin: 1em 1em 1em 0em;
+}
+
+.asideButtoncontainer1 button {
+  padding: 1em;
+  background-color: transparent;
+  border: 2px solid rgba(128, 128, 128, 0.128);
+  font-size: 1em;
+  margin: 0.5%;
+}
+
+.asideButtoncontainer2 {
+  width: 45%;
+}
+
+.asideButtoncontainer2 button {
+  border: none;
+  padding: 1em;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+/* Article */
+#articleContainer {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.articleTitle {
+  line-height: 2em;
+}
+
+.articleTitle h3 {
+  font-weight: 800;
+  font-size: 1.4em;
+  line-height: 1em;
+  width: 75%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+.articleTitle p {
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.articleTitle p img {
+  width: 1.5em;
+  margin-left: 1%;
+}

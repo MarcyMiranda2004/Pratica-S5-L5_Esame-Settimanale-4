@@ -1,0 +1,58 @@
+@media screen and (min-width: 320px) and (max-width: 756px) {
+  /* Middle Main */
+  #middleMain {
+    display: flex;
+    flex-direction: column; /* Ordina gli elementi in colonna */
+    align-items: center; /* Centra gli elementi */
+    margin-top: 3%;
+    width: 100%;
+  }
+
+  /* Imposta l'aside sopra la section */
+  aside#more {
+    order: -1; /* Assicura che l'aside venga messo sopra */
+    width: 100%;
+  }
+
+  /* La section dei post rimarrà sotto */
+  #articleSection {
+    order: 1;
+    width: 100%;
+  }
+
+  /* Disposizione contenitori dei bottoni nell'aside */
+  .discoveredMore1,
+  .discoveriMore2 {
+    width: 100%;
+  }
+
+  .asideButtoncontainer1,
+  .asideButtoncontainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .asideButtoncontainer1 button,
+  .asideButtoncontainer2 button {
+    margin: 5px;
+  }
+
+  /* Rimuovi altre regole specifiche per la larghezza che potrebbero interferire */
+  .discoveredMore1,
+  .discoveriMore2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .trendContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .trendContainer {
+    grid-template-columns: 1fr;
+  }
+}
