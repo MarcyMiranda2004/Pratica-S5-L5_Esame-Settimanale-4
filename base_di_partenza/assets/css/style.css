@@ -293,10 +293,6 @@ main {
   gap: 10px;
 }
 
-.articleTitle {
-  width: 100%;
-}
-
 .articleTitle h3 {
   font-size: 1.2em;
   font-weight: 700;
