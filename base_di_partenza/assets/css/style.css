@@ -273,8 +273,8 @@ main {
 #articleContainer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 800px;
+  gap: 30px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -282,24 +282,23 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 20px;
-  padding: 20px;
+  gap: 30px;
+  padding: 30px;
 }
 
 .articleContent {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .articleTitle {
-  margin-right: 2em;
+  margin-right: 3em;
   position: relative;
 }
 
 .articleTitle h3 {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 700;
   color: #000;
   cursor: pointer;
@@ -309,7 +308,6 @@ main {
 .articleTitle p {
   font-size: 1em;
   color: #555;
-  max-width: 90%;
   margin-top: 5%;
 }
 
@@ -318,15 +316,15 @@ main {
   color: gray;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   margin-top: 4%;
 }
 
 .articleTitle h6 .tag {
-  padding: 3px 8px;
+  padding: 4px 10px;
   border-radius: 15px;
   background-color: #f0f0f0;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .articleImg {
@@ -334,12 +332,12 @@ main {
 }
 
 .articleImg img {
-  width: 70%;
+  width: 75%;
   object-fit: cover;
 }
 
 ion-icon[name="bookmark-outline"] {
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
   position: absolute;
   right: 0;
