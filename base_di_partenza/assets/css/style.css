@@ -293,6 +293,11 @@ main {
   gap: 10px;
 }
 
+.articleTitle {
+  margin-right: 2em;
+  position: relative;
+}
+
 .articleTitle h3 {
   font-size: 1.2em;
   font-weight: 700;
@@ -309,11 +314,12 @@ main {
 }
 
 .articleTitle h6 {
-  font-size: 12px;
+  font-size: 1em;
   color: gray;
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-top: 4%;
 }
 
 .articleTitle h6 .tag {
@@ -330,10 +336,12 @@ main {
 .articleImg img {
   width: 70%;
   object-fit: cover;
-  border-radius: 8px;
 }
 
 ion-icon[name="bookmark-outline"] {
   font-size: 18px;
   cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
